@@ -9,7 +9,7 @@ const Animelist = ({ api }) => {
           <Link
             key={anime.mal_id}
             href={`/${anime.mal_id}`}
-            className="cursor-pointer"
+            className="cursor-pointer text-color-primary hover:text-color-accent transition-all"
           >
             <Image
               src={anime.images.webp.image_url}
@@ -18,7 +18,7 @@ const Animelist = ({ api }) => {
               height={350}
               className="w-full max-h-64 object-cover"
             />
-            <h3 className="font-bold md:text-xl text-md p-4">{anime.title}</h3>
+            <h3 className="font-bold md:text-xl text-md p-4 ">{anime.title}</h3>
           </Link>
         );
       })}
