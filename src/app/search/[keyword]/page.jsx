@@ -1,9 +1,9 @@
 import Animelist from "@/components/AnimeList";
 import Header from "@/components/AnimeList/Header";
-import { getAnimeResponse } from "@/app/libs/api-libs";
+import { getAnimeResponse } from "@/libs/api-libs";
 const Page = async ({ params }) => {
   const { keyword } = params;
-  const decodedKeyword = decodeURI(keyword)
+  const decodedKeyword = decodeURI(keyword);
   const searchAnime = await getAnimeResponse("anime", `q=${decodedKeyword}`);
   return (
     <>
