@@ -11,7 +11,7 @@
   "Author": "Gesa Rizky",
   "repository": {
     "type": "git",
-    "url": "https://github.com/gesariziky"
+    "url": "https://github.com/gesarizky/animelist.git"
   },
   "dependencies": {
     "@phosphor-icons/react": "^2.0.13",
