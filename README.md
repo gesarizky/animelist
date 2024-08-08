@@ -1,5 +1,5 @@
 ## Website Animelist
-this website created by nextjs 14 with backend api using https://jikan.moe/
+this website created by nextjs 13 with backend api using https://jikan.moe/
 and inspired by Dea aprizal Youtube Channel with link playlist  
 https://youtube.com/playlist?list=PLc6SEcJkQ6DwSCyM53kqpM1yNyXT80d3U&si=0hWVNUiHLqczyHcB
 
