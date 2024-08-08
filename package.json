@@ -8,6 +8,11 @@
     "start": "next start",
     "lint": "next lint"
   },
+  "Author": "Gesa Rizky",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gesariziky"
+  },
   "dependencies": {
     "@phosphor-icons/react": "^2.0.13",
     "next": "13.5.6",
